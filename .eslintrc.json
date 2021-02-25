@@ -1,0 +1,37 @@
+{
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-undef": "error",
+        "no-const-assign": "error",
+        "prefer-const": "warn",
+        "no-var": "warn"
+    },
+    "env": {
+        "es6": true
+    },
+    "globals": {
+        "AnyOf": "readonly",
+        "Each": "readonly",
+        "snapshotBuilder": "readonly",
+        "sensor": "readonly",
+        "WaitInSeconds": "readonly",
+        "resources": "readonly",
+        "Step": "readonly",
+        "Verify": "readonly",
+        "mobile": "readonly",
+        "websim": "readonly",
+        "ngp": "readonly",
+        "phone": "readonly",
+        "console": "readonly",
+        "Note": "readonly",
+        "pump": "readonly",
+        "loadLibrary": "readonly",
+        "OutDir": "readonly",
+        "__filename": "readonly"
+    },
+
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "parser": "babel-eslint"
+    }
+}
